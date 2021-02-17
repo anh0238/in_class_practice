@@ -1,0 +1,224 @@
+@font-face {
+    font-family: champagneLimousines;
+    src: url(../assets/champagne_limousines/Champagne\ &\ Limousines.ttf);
+    /* src: url(../assets/champagne_limousines/Champagne\ &\ Limousines\ Bold.ttf);
+    src: url(../assets/champagne_limousines/Champagne\ &\ Limousines\ Bold\ Italic.ttf);
+    src: url(../assets/champagne_limousines/Champagne\ &\ Limousines\ Italic.ttf); */
+}
+
+@font-face {
+    font-family: nixieOne;
+    src: url(../assets/nixie_one/NixieOne-Regular.ttf);
+}
+
+* { margin: 0; padding: 0; }
+
+body {
+    background-color: white;
+}
+
+h1 {
+    font-family: champagneLimousines;
+    color: #ef4136;
+    font-size: 40px;
+}
+
+h2 {
+    font-family: champagneLimousines;
+    color: #414042;
+    font-size: 20px;
+}
+
+
+p {
+    font-family: nixieOne;
+}
+
+header {
+    background-color: #414042;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+ul {
+    font-family: champagneLimousines;
+    color: #e8dce5;
+    font-size: 20px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;;
+    padding-bottom: 5px;
+    padding-right: 10px;
+}
+
+li {
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+#heroImage {
+    height: 500px;
+    width: 100%;
+    background-color: #e8dce5;
+    display: flex;
+
+}
+
+#aboutText {
+    float: left;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 80px;
+}
+
+#aboutImage {
+    padding-right: 80px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;  
+} 
+
+#mySkills {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#mySkills p {
+    text-align: center;
+}
+
+.download {
+    background-color: #c4ab2f;
+    font-family: champagneLimousines;
+    color: #414042;
+    font-size: 16px;
+    border: 1px #c4ab2f;
+    border-radius: 12px;
+    padding: 10px;
+    transition-duration: .3s;
+    box-shadow: none;
+}
+
+.download:hover {
+    background-color: #414042;
+    color: #c4ab2f;
+}
+
+#myWork {
+    display: flex;
+    flex-direction: column; 
+    padding-top: 50px;
+
+}
+
+#workHeadline {
+    align-self: center;
+    padding-bottom: 20px;
+}
+
+.projectSummary {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.myWorkSegmentLeft {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.myWorkSegmentRight {
+    display: grid;
+    flex-direction: 30% 70%;
+}
+
+.projectImage {
+    margin-top: 10px;
+    margin-bottom: 10px;  
+
+}
+
+#projectOne {
+    background-color: #e8dce5;
+    width: 70%;
+    height: 350px;
+    align-self: flex-start;
+    
+}
+
+#projectTwo {
+    background-color: #c4ab2f;
+    width: 70%;
+    height: 350px;
+    align-self: flex-end;
+
+}
+
+#projectThree {
+    background-color: #429cd6;
+    width: 70%;
+    height: 350px;
+}
+
+#imageOne {
+    width: 30%;
+    height:350px;
+}
+
+#imageTwo {
+    width: 30%;
+    height:350px;   
+}
+
+#imageThree {
+    width: 30%;
+    height:350px;
+}
+
+#contact {
+    background-color: #e8dce5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+footer {
+    margin-top: 30px;
+}
+#footerContent {
+    background-color: #414042;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+#footerMenu {
+    margin-top: 5px;;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+#copyright {
+    background-color: #e8dce5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#copyrightIcon {
+    width: 1%;
+}
+
